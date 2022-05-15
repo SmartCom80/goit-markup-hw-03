@@ -16,6 +16,8 @@
     }
 
 body {
+    width: 1600px;
+
     background-color: var(--pr-bg-color);
     color: var(--pr-text-color);
     font-family: 'Roboto', sans-serif;
@@ -25,13 +27,24 @@ body {
     letter-spacing: 0.03em;
 }
 
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0, auto;
+}
+
+
 /* Basic style lists */
 .list {
+    padding: 0;
+    margin: 0;
     list-style: none;
 }
 
 /* Logo style */
 .logo {
+    margin-left: 215px;
     color: var(--pr-text-color);
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -50,6 +63,7 @@ body {
 
 /* Site-nav */
 .site-nav .link {
+
     color: var(--pr-text-color);
     font-weight: 500;
     font-size: 14px;
@@ -83,10 +97,21 @@ body {
 
 /* Hero */
 .hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+
     background-color: var(--sec-bg-color);
+    text-align: center;
 }
 
 .hero-title {
+    margin-top: 0;
+    margin-bottom: 30px;
+    width: 696px;
+    margin-right: auto;
+    margin-left: auto;
+    
+
     color: var(--inv-text-color);
     font-weight: 900;
     font-size: 44px;
@@ -98,6 +123,9 @@ body {
 
 /* Section */
 .section-title {
+    padding: 0;
+    margin: 0;
+
     color: var(--pr-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -106,23 +134,69 @@ body {
 }
 
 /* Section Features */
+
+.section.features {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.features .list p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .feature {
+    margin-top: 0;
+    margin-bottom: 10px;
+
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
 }
 
+/* Section Our Works */
+.section.work {
+    padding-top: 0;
+    padding-bottom: 94px;
+}
+
+.work > .section-title {
+    margin-bottom: 50px;
+}
+
 /* Section Our Team */
+.section.team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.team > .section-title {
+    margin-bottom: 50px;
+}
+
 .team-cards,
 .team-member {
+    margin-top: 0;
+  
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
 }
 
+.team-cards > .photo {
+    margin-bottom: 30px;
+}
+
 .team-member {
+    margin-bottom: 10px;
+
     font-weight: 500;
+}
+
+.team-cards p {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 /* Section Filters */
@@ -150,6 +224,7 @@ body {
 
 /* Button */
 .button {
+    border: transparent;
     color: var(--pr-text-color);
     background-color: var(--btn-bg-color);
     cursor: pointer;
@@ -172,6 +247,9 @@ body {
 
 /* Footer */
 .footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
     background-color: var(--sec-bg-color);
 }
 
@@ -180,6 +258,9 @@ body {
 }
 
 .logo.footer {
+    margin-top: 0;
+    margin-bottom: 20px;
+
     color: var(--inv-text-color);
 }
 
