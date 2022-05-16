@@ -19,29 +19,42 @@
 </head>
 
 <body>
-    <header class="page-header">
+<header class="page-header">
+    <div class="container">
         <a class="page-header link" href="./index.html">
             <p class="logo"><span class="accent">Web</span>Studio</p>
         </a>
-        <nav >
+
+        <!-- Menu Navigation -->
+        <nav>
             <ul class="site-nav list">
-                <li>
-                    <a href="./index.html" class="link ">Студия</a>
+                <li class="item">
+                    <a href="./index.html" class="link current">Студия</a>
                 </li>
-                <li>
-                    <a href="./portfolio.html" class="link current">Портфолио</a>
+                <li class="item">
+                    <a href="./portfolio.html" class="link">Портфолио</a>
                 </li>
-                <li>
+                <li class="item">
                     <a href="" class="link">Контакты</a>
                 </li>
             </ul>
         </nav>
+
+        <!-- Menu Authefication -->
         <ul class="auth-nav list">
-            <li><a class="item" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="item" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li class="item">
+                <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="item">
+                <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
         </ul>
-        
-    </header>
+
+    </div>
+
+
+
+</header>
 
     <main>
         <!-- Portfolio -->
@@ -54,7 +67,8 @@
             <h2>Фильтр проектов</h2>
             
             <!-- Filter list -->
-            <ul class="list">
+            <div class="container">
+                <ul class="list">
                     <li>
                         <button class="button" type="button">
                             <span class="filter">Все</span>
@@ -80,11 +94,14 @@
                             <span class="filter">Маркетинг</span>
                         </button>
                     </li>
-
-            </ul>
+                
+                </ul>
+            </div>
+            
                         
             <!-- Project list -->
-            <ul class="list">
+            <div class="container">
+                <ul class="list">
                     <li>
                         <img width="370" src="./images/img-technocrack.jpg" alt="Сайт Технокряк">
                         <h3 class="project-name">Технокряк</h3>
@@ -130,21 +147,27 @@
                         <h3 class="project-name">Growing Business</h3>
                         <p class="filter-name">Приложение</p>
                     </li>
-            </ul>
+                </ul>
+            </div>
         </section>
-        
     </main>
-    <footer class="footer">
+<footer class="footer">
+    <div class="container">
         <a class="footer link" href="./index.html">
             <p class="logo footer"><span class="accent">Web</span>Studio</p>
         </a>
         <address class="address">
-            <a class="address link" href="">г. Киев, пр-т Леси Украинки, 26</a>
+            <a class="address-link" href="">г. Киев, пр-т Леси Украинки, 26</a>
             <ul class="address list">
-                <li><a class="item" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="item" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li class="item">
+                    <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+                </li>
             </ul>
         </address>
-    </footer>
+    </div>
+</footer>
 </body>
 </html>
