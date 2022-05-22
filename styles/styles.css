@@ -198,7 +198,6 @@ img {
 .feature {
     margin-bottom: 10px;
 
-    text-align: left;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -207,10 +206,10 @@ img {
 }
 
 .feature-content {
-    text-align: left; 
+    color: var(--sec-text-color);
     letter-spacing: 0.03em;
-
 }
+
 
 /* Section Our Works */
 .section.work {
